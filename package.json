@@ -9,9 +9,13 @@
     "@heroicons/react": "1.0.5",
     "@react-three/drei": "8.10.1",
     "@react-three/fiber": "7.0.26",
+    "@theatre/core": "^0.4.7",
+    "@theatre/r3f": "^0.4.0-dev.23",
+    "@theatre/studio": "^0.4.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scripts": "5.0.0",
+    "react-shadow": "^19.0.3",
     "tailwindcss": "3.0.23",
     "three": "0.137.5"
   },
