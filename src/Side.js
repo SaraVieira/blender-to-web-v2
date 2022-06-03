@@ -373,11 +373,12 @@ function Model(props) {
         </>
 
       </mesh>
-    </group >
+    </group>
   );
 }
 
-const Side = () => {
+const Side = (props) => {
+  console.log(props)
   return (
     <Canvas shadows>
       <Stage
