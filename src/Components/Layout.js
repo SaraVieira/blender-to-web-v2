@@ -5,8 +5,8 @@ export default function Layout({ children }) {
   const { frosting, setFrosting } = useFrosting();
 
   return (
-    <div className="w-screen min-h-100vh text-white bg-[#1D1D1D]">
-      <div className="h-screen w-[500px] p-8 pt-0 mx-auto">
+    <div className="w-screen min-h-100vh text-white bg-[#1D1D1D] max-w-full">
+      <div className="min-h-screen w-[500px] max-w-full p-8 pt-0 mx-auto">
         <div className="h-[400px]"> {children}</div>
         <section>
           <div className="flex gap-4">
