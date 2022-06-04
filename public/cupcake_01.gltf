@@ -514,7 +514,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Material.001",
+            "name" : "frosting",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.09272168576717377,
@@ -541,7 +541,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.002",
+            "name" : "whitePaper",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -554,7 +554,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.004",
+            "name" : "yellowPaper",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.8000000715255737,
@@ -568,7 +568,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.003",
+            "name" : "cupcake",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.5759551525115967,
