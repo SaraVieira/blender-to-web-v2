@@ -6,7 +6,7 @@ import { MeshStandardMaterial } from "three";
 
 function Model(props) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/cupcake_01.gltf");
+  const { nodes, materials } = useGLTF("/cupcake.gltf");
   const { frosting } = useFrosting();
 
   useFrame((state) => {
@@ -85,7 +85,7 @@ const Side = () => {
 };
 
 export default Side;
-useGLTF.preload("/cupcake_01.gltf");
+useGLTF.preload("/cupcake.gltf");
 
 const Sprinkes = ({ nodes }) => (
   <group>
