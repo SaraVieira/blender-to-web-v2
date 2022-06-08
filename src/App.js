@@ -1,12 +1,12 @@
 import React, { Suspense } from "react";
-import Side from "./Side";
+import Cupcake from "./Cupcake";
 import Layout from "./Components/Layout";
 
 export default function Home() {
   return (
     <Layout>
       <Suspense fallback="">
-        <Side />
+        <Cupcake />
       </Suspense>
     </Layout>
   );

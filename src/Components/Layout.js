@@ -30,7 +30,7 @@ export default function Layout({ children }) {
             </legend>
             <div className="mt-4 border-t border-b border-slate-700 divide-y divide-slate-700">
               {frostings.map((option, optionIdx) => (
-                <div key={optionIdx} className="relative flex items-start py-4">
+                <div key={optionIdx} className="relative flex items-start py-3">
                   <div className="min-w-0 flex-1 text-sm">
                     <label
                       htmlFor={`option-${option.id}`}
@@ -58,7 +58,7 @@ export default function Layout({ children }) {
             className="rounded-xl h-[64px] w-full text-white mt-12 hover:shadow-2xl hover:scale-105 transition"
             style={{
               background:
-                "linear-gradient(90.09deg, #D68E55 0.08%, rgba(240, 138, 115, 0.9) 99.62%)"
+                "linear-gradient(90.09deg, #D68E55 0.08%, rgba(240, 138, 115, 0.9) 99.62%)",
             }}
           >
             Buy
