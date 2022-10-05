@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   const { frosting, setFrosting } = useFrosting();
 
   return (
-    <div className="w-screen min-h-100vh text-white bg-[#1D1D1D] max-w-full">
+    <div className="w-screen min-h-100vh text-white bg-slate-800 max-w-full">
       <div className="min-h-screen w-[500px] max-w-full p-8 pt-0 mx-auto">
         <div className="h-[400px]"> {children}</div>
         <section>
@@ -28,13 +28,13 @@ export default function Layout({ children }) {
             <legend className="text-lg font-medium text-gray-100">
               Frosting
             </legend>
-            <div className="mt-4 border-t border-b border-slate-700 divide-y divide-slate-700">
+            <div className="mt-4 shadow divide-y divide-slate-700 bg-slate-900 px-4 rounded-lg">
               {frostings.map((option, optionIdx) => (
                 <div key={optionIdx} className="relative flex items-start py-3">
                   <div className="min-w-0 flex-1 text-sm">
                     <label
                       htmlFor={`option-${option.id}`}
-                      className="font-medium text-gray-300 select-none cursor-pointer"
+                      className="font-medium text-gray-300 select-none cursor-pointer w-full block"
                     >
                       {option.name}
                     </label>
